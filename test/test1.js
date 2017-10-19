@@ -6,6 +6,7 @@ describe('Operaciones', function(){
   beforeEach(function(){
     a=4;
     b=2;
+c=5;
   });
 
   describe('Funciones', function(){
@@ -17,6 +18,10 @@ describe('Operaciones', function(){
     it('resta',function(){
       assert.equal(a-b,2);
     });
+
+it('producto',function(){
+  assert.equal(a*b,8);
+});
 
   });
 
